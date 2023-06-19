@@ -25,9 +25,9 @@ const SCHEMA_CODE = {
   TARGET_HUMIDITY: ['humidity_set'],
 };
 
-const AC_MODES = ['auto', 'cold', 'hot'];
-const DEHUMIDIFIER_MODE = 'wet';
-const FAN_MODE = 'wind';
+const AC_MODES = ['auto', 'cool'];
+const DEHUMIDIFIER_MODE = 'dry';
+const FAN_MODE = 'fan';
 
 export default class AirConditionerAccessory extends BaseAccessory {
 
